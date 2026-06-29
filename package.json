@@ -20,6 +20,9 @@
     "type": "git",
     "url": "https://github.com/cp-mario/MMX-Documentation"
   },
+  "dependencies": {
+    "mmxpage":"0.0.0"
+  },
   "author": "Mario",
   "license": "MIT",
   "engines": {

@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Run generator script
-        run: npm build
+        run: npm run build
 
       - name: Disable Jekyll on the published site
         # Pages turns on Jekyll by default; it would otherwise ignore / ignore
