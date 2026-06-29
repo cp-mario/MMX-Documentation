@@ -4,8 +4,8 @@
   "description": "The MMX documentation",
   "type": "module",
     "scripts": {
-        "dev": "roxul dev",
-        "build": "roxul build",
+        "dev": "echo \"Error: no dev specified\"",
+        "build": "mmx build",
         "test": "echo \"Error: no test specified\""
     },
   "keywords": [
