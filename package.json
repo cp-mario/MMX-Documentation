@@ -5,7 +5,7 @@
   "type": "module",
     "scripts": {
         "dev": "echo \"Error: no dev specified\"",
-        "build": "mmx build",
+        "build": "mmx build src output",
         "test": "echo \"Error: no test specified\""
     },
   "keywords": [
@@ -21,7 +21,7 @@
     "url": "https://github.com/cp-mario/MMX-Documentation"
   },
   "dependencies": {
-    "mmxpage":"0.0.0"
+    "mmxsite":"0.0.0"
   },
   "author": "Mario",
   "license": "MIT",
