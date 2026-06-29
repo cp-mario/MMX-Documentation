@@ -38,12 +38,12 @@ jobs:
       - name: Disable Jekyll on the published site
         # Pages turns on Jekyll by default; it would otherwise ignore / ignore
         # files starting with `_` and add theme overrides we don't want.
-        run: touch 1Example/output/.nojekyll
+        run: touch output
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 1Example/output/
+          path: output
 
   deploy:
     runs-on: ubuntu-latest
