@@ -21,7 +21,7 @@
     "url": "https://github.com/cp-mario/MMX-Documentation"
   },
   "dependencies": {
-    "mmxsite":"1.1.4"
+    "mmxsite":"latest"
   },
   "author": "Mario",
   "license": "MIT",
